@@ -15,3 +15,6 @@ movies = {:the_shining => 1980, :home_alone => 1990, :shrek => 2001}
 puts movies[:the_shining]
 puts movies[:home_alone]
 puts movies[:shrek]
+
+#alternative solution
+movies.each_value { |value| puts value }
