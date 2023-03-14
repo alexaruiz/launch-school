@@ -15,3 +15,19 @@ puts "In 10 years you will be #{ten} years old!"
 puts "In 20 years you will be #{twenty} years old!"
 puts "In 30 years you will be #{thirty} years old!"
 puts "In 40 years you will be #{forty} years old!"
+
+#alternative solution
+puts "Please type in your age"
+age = gets.chomp.to_i
+decade = 10
+
+while decade <= 40
+  if age > -1
+    age = age + 10
+    puts "In #{decade} years, you will be #{age}"
+    decade = decade + 10
+  else
+    puts "please type in a correct age"
+    break
+  end
+end

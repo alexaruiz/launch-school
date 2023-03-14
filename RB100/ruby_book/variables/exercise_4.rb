@@ -5,8 +5,8 @@ full name all at once.
 =end
 
 puts "Please type your first name"
-first_name = gets.chomp
+first_name = gets.chomp.capitalize
 puts "Please type your last name"
-last_name = gets.chomp
+last_name = gets.chomp.capitalize
 
 puts "Your full name is #{first_name} #{last_name}"

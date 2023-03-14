@@ -6,3 +6,10 @@ prints out a greeting message with their name included.
 puts "Please type your name"
 name = gets.chomp
 puts "Greetings, #{name}!"
+
+#alternative solution
+def greeting
+  puts "Please type in your name"
+  name = gets.chomp.split(" ").map! { |str| str.capitalize}
+  print "Hello, " + name.join(" ") + "\n"
+end
