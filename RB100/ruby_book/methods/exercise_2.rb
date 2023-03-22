@@ -16,7 +16,7 @@ console with a new line; however, this expression will evaluate to nil as the
 method puts returns nil.
 3. Puts returns nil, meanwhile p returns the object you pass to it and prints 
 the raw form of whatever you pass to it to the console with a new line. Thus,
-this expression will exiprint "Joe" to the console and also return the string Joe. 
+this expression will print "Joe" to the console and also return the string Joe. 
 4. The string "four" is assigned to four. This expression will evaluate to the 
 string "four".
 5. The string "nothing" is assigned to something and then printed to the console
