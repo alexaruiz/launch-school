@@ -6,3 +6,5 @@ method called greeting that takes a name as its parameter and returns a string.
 def greeting(name)
   "Greetings, #{name}. How are you?"
 end
+
+puts greeting("alexa")
